@@ -1,23 +1,25 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.module.scss';
+import { useEffect, useState } from 'react';
 
-function App() {
+const App = () => {
+
+const [planet, setPlanet] = useState([])
+
+const getPlanet = () => {
+  let url = "https://jabt-planet-api.herokuapp.com/planets"
+
+  fetch(url)
+   .then(response => response.json())
+    .then ((jsonResponse) => {setPlanet(jsonResponse)})
+}
+
+useEffect(() => {
+  getPlanet()
+})
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <p>{planet}</p>
     </div>
   );
 }
