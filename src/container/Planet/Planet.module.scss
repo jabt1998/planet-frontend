@@ -1,0 +1,24 @@
+.planetHeaders {
+  display: flex;
+  box-sizing: border-box;
+
+  p {
+    color: white;
+  }
+
+  .name {
+    margin-left: 38px;
+  }
+
+  .hasLife {
+    margin-left: 55px;
+  }
+
+  .type {
+    margin-left: 60px;
+  }
+
+  .moons {
+    margin-left: 50px;
+  }
+}

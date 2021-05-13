@@ -51,14 +51,15 @@ useEffect(() => {
   getPlanet()
 }, [])
   return (
-    <main>
-      <h2 className={styles.planetHeader}>Planets</h2>     
+    
+    <section className={styles.body}>
+      <h2 className={styles.planetHeader}>Planet API</h2>     
       <section className={styles.table}>
         <Planet planet={planet} />
       </section>
       <PlanetForm setName={setName}  setHasLife={setHasLife} setType={setType} setnoOfMoons={setnoOfMoons} addPlanet={addPlanet}/>
       
-    </main>
+    </section>
   );
 }
 

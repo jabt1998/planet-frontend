@@ -1,12 +1,20 @@
 .planetTable {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 2px solid black;
+  
+  border: 2px solid white;
   width: 70vh;
-  margin-left: 10vh;
+  
 
   p {
     display: flex;
     justify-content: center;
+    color: white;
+    font-size: 20px;
   }
+
+}
+.planetHeaders {
+
+  color: white;
 }

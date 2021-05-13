@@ -5,8 +5,8 @@ const PlanetTable = (props) => {
   const { planet } = props
   return (
     <>
-     <section className={styles.planetTable}>
-      
+     
+     <section className={styles.planetTable}>      
       <p>{planet.name}</p>
       <p>{planet.hasKnownLife.toString()}</p>
       <p>{planet.type}</p>
