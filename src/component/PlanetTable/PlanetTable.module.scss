@@ -1,0 +1,12 @@
+.planetTable {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 2px solid black;
+  width: 70vh;
+  margin-left: 10vh;
+
+  p {
+    display: flex;
+    justify-content: center;
+  }
+}

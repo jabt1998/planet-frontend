@@ -1,10 +1,16 @@
 import React from "react";
 import styles from "./Planet.module.scss";
+import PlanetTable from '../../component/PlanetTable';
 
-const Planet = () => {
+const Planet = (props) => {
+  const { planet } = props;
+
+  const planetJSX = planet.map(planet => <PlanetTable planet={planet} />);
   return (
     <>
-      <p>Planet works</p>
+     <section className={styles.planetTable}>
+      {planetJSX}
+      </section>
     </>
   );
 };
