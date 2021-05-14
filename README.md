@@ -13,25 +13,34 @@ Then I created requests:
  * Starting with a get request that would get all the entries.
  * A request that would get a specific entry based on their ID.
  * A post request that would send data to the API and then sort the entries by highest ID.
- * A delete request which would delete the entry base on their ID.
+ * A delete request which would delete the entry based on their ID.
 
 All of the requests were sent with status responses and messages.
 
 ## Creating the Front-end
 
+Using fetch the object was gotten from the API. This was then turned into json so that it could be used in React.
+
+This was then mapped over and displayed in a table. 
+
+Then in order to send data to the API so that a user to input their own planet a planetForm component was made.
+
+Within the app another fetch was made posting the data that the user put in the planetForm to the API.
+
+This then generated the planet at the bottom of the table.
+
+## Challenges
+
+When working through this project the biggest challenge that I came across was sending data to the API in order to return the users planet. 
+
+Firstly, when posting the users inputed planet to the API I passed this function into a useEffect. This then started to created multiple responses and was continuely adding the same planet to the bottom of the table. To solve this I attached the function to a submit button so that it would only be called once. 
+
+Secondly, when posting data to the API I was passing through key value pairs nested within a key and thus, running into erros. By using postman I could analyse the problem and then send through just the correct key value pairs. 
+
+Thirdly, when posting the data one of the key value pairs passed through is a boolean. I was passing this through to the API as a string and thus it was coming back as undefined. To solve this I used a checkbox for this input and this posted the key value pair as a boolean.
 
 
-
-
-
-
-
-
-
-
-
-
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
