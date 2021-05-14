@@ -6,14 +6,14 @@ For this project set by \_Nology we were tasked with creating an API and then co
 
 ## Creating the API
 
-Using Express.js I created an object of planets which stored the relevant information that could be extracted from the API
+Using Express.js I created an object of planets which stored the relevant information that could be extracted from the API.
 
 Then I created requests:
 
  * Starting with a get request that would get all the entries.
  * A request that would get a specific entry based on their ID.
- * A post request that would send data to the API and then sort the entries by highest ID
- * A delete request which would delete the entry base on their ID
+ * A post request that would send data to the API and then sort the entries by highest ID.
+ * A delete request which would delete the entry base on their ID.
 
 All of the requests were sent with status responses and messages.
 
