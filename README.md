@@ -37,7 +37,7 @@ When working through this project the biggest challenge that I came across was s
 
 Firstly, when posting the users inputed planet to the API I passed this function into a useEffect. This then started to created multiple responses and was continuely adding the same planet to the bottom of the table. To solve this I attached the function to a submit button so that it would only be called once. 
 
-Secondly, when posting data to the API I was passing through key value pairs nested within a key and thus, running into erros. By using postman I could analyse the problem and then send through just the correct key value pairs. 
+Secondly, when posting data to the API I was passing through key value pairs nested within a key and thus, running into errors. By using postman I could analyse the problem and then send through just the correct key value pairs. 
 
 Thirdly, when posting the data one of the key value pairs passed through is a boolean. I was passing this through to the API as a string and thus it was coming back as undefined. To solve this I used a checkbox for this input and this posted the key value pair as a boolean.
 
