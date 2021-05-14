@@ -1,3 +1,23 @@
+# Planet-Api
+
+## Project description
+
+For this project set by \_Nology we were tasked with creating an API and then connecting it to a front-end.
+
+## Creating the API
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
