@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/planet-frontend/static/css/main.eb2c46fe.chunk.css",
+    "main.js": "/planet-frontend/static/js/main.9a143819.chunk.js",
+    "main.js.map": "/planet-frontend/static/js/main.9a143819.chunk.js.map",
+    "runtime-main.js": "/planet-frontend/static/js/runtime-main.23cdcbdb.js",
+    "runtime-main.js.map": "/planet-frontend/static/js/runtime-main.23cdcbdb.js.map",
+    "static/js/2.ca9399c5.chunk.js": "/planet-frontend/static/js/2.ca9399c5.chunk.js",
+    "static/js/2.ca9399c5.chunk.js.map": "/planet-frontend/static/js/2.ca9399c5.chunk.js.map",
+    "static/js/3.a2c272f7.chunk.js": "/planet-frontend/static/js/3.a2c272f7.chunk.js",
+    "static/js/3.a2c272f7.chunk.js.map": "/planet-frontend/static/js/3.a2c272f7.chunk.js.map",
+    "index.html": "/planet-frontend/index.html",
+    "static/css/main.eb2c46fe.chunk.css.map": "/planet-frontend/static/css/main.eb2c46fe.chunk.css.map",
+    "static/js/2.ca9399c5.chunk.js.LICENSE.txt": "/planet-frontend/static/js/2.ca9399c5.chunk.js.LICENSE.txt",
+    "static/media/App.module.scss": "/planet-frontend/static/media/Stars.c1ffa926.jpg",
+    "static/media/logo.6ce24c58.svg": "/planet-frontend/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23cdcbdb.js",
+    "static/js/2.ca9399c5.chunk.js",
+    "static/css/main.eb2c46fe.chunk.css",
+    "static/js/main.9a143819.chunk.js"
+  ]
+}
