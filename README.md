@@ -4,6 +4,8 @@
 
 For this project set by \_Nology we were tasked with creating an API and then connecting it to a front-end.
 
+Hosted here https://jabt1998.github.io/planet-frontend/
+
 ## Creating the API
 
 Using Express.js I created an object of planets which stored the relevant information that could be extracted from the API.
